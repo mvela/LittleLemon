@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..models import Menu
+from restaurant.models import Menu
 from decimal import Decimal
 
 class MenuTest(TestCase):

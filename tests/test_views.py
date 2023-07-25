@@ -1,7 +1,7 @@
 from django.test import TestCase
-from ..models import Menu
+from restaurant.models import Menu
 from django.urls import reverse
-from ..serializers import MenuSerializer
+from restaurant.serializers import MenuSerializer
 from django.http import JsonResponse
 import json
 from decimal import Decimal
